@@ -1,11 +1,11 @@
-import './App.css'
-import Form from './components/Form'
+import './index.css'
+import ControlledForm from './components/ControlledForm'
 
 function App() {
 
   return (
-    <div>
-      <Form/>
+    <div className='container'>
+      <ControlledForm/>
     </div>
   )
 }
